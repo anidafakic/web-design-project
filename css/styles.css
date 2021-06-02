@@ -1,0 +1,11 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  background-color: #667bbb !important;
+  border-color: #ff0 !important;
+  color: #ccc !important;
+}
