@@ -46,3 +46,23 @@ html {
   align-items: center; /* u centru vertikalno */
   justify-content: center; /* u centru horizontalno */
 }
+
+.projects-wrapper {
+  background-image: url("../images/projekti-bg.jpg");
+  background-size: cover;
+}
+
+.interiors-wrapper {
+  background-image: url("../images/interior-bg.jpg");
+  background-size: cover;
+}
+
+.aboutus-wrapper {
+  background-image: url("../images/about-bg.jpg");
+  background-size: cover;
+}
+
+.contact-wrapper {
+  background-image: url("../images/contact-bg.jpg");
+  background-size: cover;
+}
