@@ -1,8 +1,21 @@
+/* Importovano sa google-a */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/* Importovano lokalno */
+@font-face {
+  font-family: "DancingScript";
+  src: url("./DancingScript-Regular.ttf");
+}
+
 /* 1rem = 16px */
 html {
   margin: 0;
   padding: 0;
   box-sizing: border-box; /* da content bude unutar granica boxa */
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .header {
@@ -45,6 +58,11 @@ html {
   display: flex;
   align-items: center; /* u centru vertikalno */
   justify-content: center; /* u centru horizontalno */
+}
+
+.header-title {
+  font-family: "DancingScript";
+  font-size: 4rem;
 }
 
 .projects-wrapper {
