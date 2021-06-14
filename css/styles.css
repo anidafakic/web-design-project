@@ -60,6 +60,12 @@ body {
   justify-content: center; /* u centru horizontalno */
 }
 
+.home-img {
+  width: 500px;
+  border-radius: 20px;
+  border: 1px solid aqua;
+}
+
 .header-title {
   font-family: "DancingScript";
   font-size: 4rem;
@@ -68,16 +74,19 @@ body {
 .projects-wrapper {
   background-image: url("../images/projekti-bg.jpg");
   background-size: cover;
+  border-bottom: 1px solid aqua;
 }
 
 .interiors-wrapper {
   background-image: url("../images/interior-bg.jpg");
   background-size: cover;
+  border-bottom: 1px solid aqua;
 }
 
 .aboutus-wrapper {
   background-image: url("../images/about-bg.jpg");
   background-size: cover;
+  border-bottom: 1px solid aqua;
 }
 
 .contact-wrapper {
