@@ -66,6 +66,22 @@ body {
   border: 1px solid aqua;
 }
 
+.slika-anida {
+  width: 350px;
+  border-radius: 50%;
+  background-size: cover;
+  background-image: url('../images/anida.jpeg');
+  height: 350px;
+}
+
+.slika-dzemila {
+  width: 350px;
+  border-radius: 50%;
+  background-size: cover;
+  background-image: url('../images/dzemila.jpeg');
+  height: 350px;
+}
+
 .header-title {
   font-family: "DancingScript";
   font-size: 4rem;
@@ -87,6 +103,12 @@ body {
   background-image: url("../images/about-bg.jpg");
   background-size: cover;
   border-bottom: 1px solid aqua;
+}
+
+.aboutus {
+  background-image: url("../images/about-bg.jpg");
+  background-size: cover;
+
 }
 
 .contact-wrapper {
