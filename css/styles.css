@@ -66,6 +66,12 @@ body {
   border: 1px solid aqua;
 }
 
+.projects-img {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid aqua;
+}
+
 .slika-anida {
   width: 350px;
   border-radius: 50%;
