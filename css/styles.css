@@ -76,7 +76,7 @@ body {
   width: 350px;
   border-radius: 50%;
   background-size: cover;
-  background-image: url('../images/anida.jpeg');
+  background-image: url("../images/anida.jpeg");
   height: 350px;
 }
 
@@ -84,7 +84,7 @@ body {
   width: 350px;
   border-radius: 50%;
   background-size: cover;
-  background-image: url('../images/dzemila.jpeg');
+  background-image: url("../images/dzemila.jpeg");
   height: 350px;
 }
 
@@ -111,15 +111,10 @@ body {
   border-bottom: 1px solid aqua;
 }
 
-.aboutus {
-  background-image: url("../images/about-bg.jpg");
-  background-size: cover;
-
-}
-
 .contact-wrapper {
-  background-image: url("../images/contact-bg.jpg");
+  background-image: url("../images/interior-bg.jpg");
   background-size: cover;
+  border-bottom: 1px solid aqua;
 }
 
 .footer {
