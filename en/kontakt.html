@@ -18,13 +18,13 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="row">
+        <div class="row justify-content-between">
           <div class="col-lg-2 col-md-12">
             <div class="logo-wrapper">
               <img class="logo" src="../images/logo.png" />
             </div>
           </div>
-          <div class="col-lg-10 col-md-12">
+          <div class="col-lg-10 col-md-12 d-flex justify-content-end">
             <ul class="navigation">
               <li class="nav-list"><a href="index.html">Home</a></li>
               <li class="nav-list"><a href="projekti.html">Projects</a></li>
@@ -33,7 +33,10 @@
               <li class="nav-list"><a href="kontakt.html">Contact</a></li>
               <li class="nav-list">
                 <a href="kontakt.html"
-                  ><img src="../images/great-britain.png" alt="ENG" width="24px"
+                  ><img
+                    src="../images/great-britain.png"
+                    alt="ENG"
+                    width="24px"
                 /></a>
               </li>
               <li class="nav-list">
@@ -58,46 +61,38 @@
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-6 py-5">
-              <form>
-                <div class="form-group py-2">
-                  <label>First name</label>
-                  <input
-                    id="firstname"
-                    class="form-control"
-                    type="text"
-                    placeholder="Enter first name"
-                  />
-                </div>
-                <div class="form-group py-2">
-                  <label>Last name</label>
-                  <input
-                    id="lastname"
-                    class="form-control"
-                    type="text"
-                    placeholder="Enter last name"
-                  />
-                </div>
-                <div class="form-group py-2">
-                  <label>Email address</label>
-                  <input
-                    id="email"
-                    type="email"
-                    class="form-control"
-                    placeholder="Enter email address"
-                  />
-                </div>
-                <div class="form-group py-2">
-                  <label>Message</label>
-                  <textarea
-                    id="message"
-                    class="form-control"
-                    placeholder="Enter a message..."
-                  ></textarea>
-                </div>
-                <div class="form-group py-2 text-center">
-                  <button type="submit" class="btn btn-primary">Send</button>
-                </div>
-              </form>
+              <div class="form-group py-2">
+                <label>Full name</label>
+                <input
+                  id="name"
+                  class="form-control"
+                  type="text"
+                  placeholder="Enter first name"
+                />
+                <p class="error-message" id="name-error"></p>
+              </div>
+              <div class="form-group py-2">
+                <label>Email address</label>
+                <input
+                  id="email"
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter email address"
+                />
+                <p class="error-message" id="email-error"></p>
+              </div>
+              <div class="form-group py-2">
+                <label>Message</label>
+                <textarea
+                  id="message"
+                  class="form-control"
+                  placeholder="Enter a message..."
+                ></textarea>
+                <p class="error-message" id="message-error"></p>
+              </div>
+              <div class="form-group py-2 text-center">
+                <button id="submit" class="btn btn-primary">Send</button>
+              </div>
             </div>
           </div>
         </div>
@@ -127,5 +122,7 @@
       >
       <p>&copy; Copyright - Anida Fakić</p>
     </footer>
+
+    <script src="../js/validation-en.js"></script>
   </body>
 </html>

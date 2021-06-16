@@ -28,7 +28,6 @@ body {
 .navigation {
   display: flex;
   flex-wrap: wrap; /* ovo znaci kad ne moze sve da stane u jedan red prenesi u sledeci red. radi samo kad je display:flex */
-  justify-content: flex-end; /* ovo radi samo kad je display:flex i znaci da se elementi lijepe uz kraj odnosno uz desnu  stranu*/
   margin-top: 3rem; /* 48px */
 }
 
@@ -148,4 +147,9 @@ body {
   padding: 10px 20px;
   border-radius: 20px;
   text-decoration: none;
+}
+
+.error-message {
+  color: red;
+  font-size: 10px;
 }
