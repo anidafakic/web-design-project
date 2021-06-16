@@ -66,6 +66,12 @@ body {
   border: 1px solid aqua;
 }
 
+@media (max-width: 900px) {
+  .home-img {
+    width: 300px;
+  }
+}
+
 .projects-img {
   width: 100%;
   border-radius: 20px;
