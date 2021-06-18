@@ -8,7 +8,7 @@ document.getElementById("submit").addEventListener("click", function () {
   message = document.getElementById("message").value;
 
   emailValidation = new RegExp(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g);
-  nameValidation = new RegExp(/[A-Z]{1}[a-z]{1,30} [A-Z]{1}[a-z]{1,30}/g);
+  nameValidation = new RegExp(/^[A-Z]{1}[a-z]{1,30} [A-Z]{1}[a-z]{1,30}$/g);
   messageValidation = new RegExp(/^[a-zA-Z0-9~!@#$%^&*();':,.? ]{1,255}$/g);
 
   isNameValid = nameValidation.test(name); // true ili false
@@ -36,9 +36,8 @@ document.getElementById("submit").addEventListener("click", function () {
     document.getElementById("message-error").innerHTML = "";
   }
 
-  if(isNameValid && isEmailValid && isMessageValid){
-      // posalji email
-      alert('Poruka je uspešno poslata!');
+  if (isNameValid && isEmailValid && isMessageValid) {
+    // posalji email
+    alert("Poruka je uspešno poslata!");
   }
-
 });
